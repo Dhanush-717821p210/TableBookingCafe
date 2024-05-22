@@ -1,0 +1,170 @@
+.navStyle{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-image: linear-gradient(rgb(39, 38, 39),rgb(46, 45, 45));
+    color: rgb(0, 0, 0);
+    position:sticky;
+}
+
+.linkStyle{
+    color: #ffffff;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    background-color: #555555;
+    color: rgb(255, 255, 255);
+}
+.img-container {
+    position: relative;
+    width: 1800px; 
+    height: 900px; 
+
+}
+
+.round {
+    position: absolute;
+    top: 25%; 
+    left: 4%; 
+    padding: 20px;
+    text-align: center;
+}
+
+.round p {
+    color: #ccc; 
+    font-size: 40px; 
+    font-family: Impact, fantasy;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 8%; 
+    left: 2%; 
+    padding: 20px;
+    text-align: center;
+}
+
+.text-overlay h2 {
+    color: #ccc; 
+    font-size: 60px; 
+    font-family: Brush Script MT, Brush Script Std, cursive;   
+}
+ 
+.text-overlay p {
+    color: #ccc; 
+    font-size: 40px; 
+    font-family: Impact, fantasy;  
+}
+
+.about{
+    background-color: black;
+    color: white;
+}
+
+.header{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 5%;
+   margin-bottom: 5%;
+}
+
+
+li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.name{
+    font-family: Stencil Std, fantasy;
+    font-size: x-large;
+    padding: 2px;
+    color: #ccc;
+}
+
+.contact-form {
+    padding: 40px 0;
+    margin: 0 5px;
+}
+ 
+.form-container {
+    width: 150%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+ 
+.form-container1{
+    width: 120%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container1 label {
+    display:block;
+    font-weight: bold;
+}
+.form-container1 input, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    resize: vertical;
+}
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+ 
+.form-group {
+    margin-bottom: 20px;
+}
+ 
+.form-container label {
+    display:block;
+    font-weight: bold;
+}
+.form-container input, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    resize: vertical;
+}
+
+.contact-info {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #000000;
+    color: azure;
+}
+ 
+.contact-info h2 {
+    margin-bottom: 20px;
+}
+ 
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.hamburger {
+    display: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
